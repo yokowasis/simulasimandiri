@@ -1,0 +1,437 @@
+body {
+	background : #C9C9C9;
+	padding : 0;
+	margin : 0;line-height: 1.42857;
+	width: 100%;
+	overflow-x: hidden;
+	font-family : "Droid Sans", sans-serif;
+}
+
+.b,.bold {font-weight : bold;}
+.clear {clear : both;}
+p {text-align : justify}
+#header {color : #fff;background-color : #336799;border-bottom : 4px solid #adadad;}
+#header .col-md-12 {
+  height: 100px;}
+#logo {position : absolute;top : 12px;}
+
+#logo img {margin-top : 0;margin-left : 15px!important;
+}
+
+#welcome {
+	position : absolute;
+	width : 245px;
+	background : #252525;
+	top : 0;
+	right : 0;
+	height : 100%;
+}
+
+#notif {
+	background : #F4E0DE;
+	width : 100%;
+}
+
+#notif .col-md-12 {
+	padding-top : 9px;
+	height : 38px;
+	color : #FF6050;
+}
+
+#loginbox {
+	width : 417px;
+	background : #fff;
+	margin : auto;
+	border-radius : 5px;
+}
+
+#loginfooter {
+	border-top : solid 1px #ddd;
+	height : 33px;
+	background : #fff;
+}
+
+#loginbody {font-weight : bold; color : #333;padding-bottom : 20px;}
+
+#loginbody select, #loginbody input[type=text], #loginbody input[type=password] {
+  width: 80%;
+  font-weight: normal;
+  color: #000;
+  border: solid 1px #BBB;
+  padding: 9px;
+}
+
+#loginbody select {
+	padding-top: 9.5px;
+}
+
+#loginbody table { margin: auto; width: 100%;}
+#loginbody table td { padding : 6px; text-align : right; font-weight : bold; padding-right : 0;}
+input#mulai {background : #55A958; color : #fff; border : none; padding : 10px 15px; width : 100%}
+input#mulai.btn-danger {background : #d9534f; color : #fff; border : none; padding : 10px 15px; width : 100%}
+input[type=submit] {background : #55A958; color : #fff; border : none; padding : 10px 15px; width : 100%; display: block; margin-bottom: 10px;}
+input[type=submit].btn-danger {background : #d9534f; color : #fff; border : none; padding : 10px 15px; width : 100%}
+
+
+
+#logintitle p {
+	font-weight : bold;
+	padding : 18px 15px;
+	font-size : 20px;
+}
+
+#logintitle {
+	height : 60px;
+	background : #F1F1F1;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	color : #252525;
+	border : solid 1px #ddd;
+}
+
+#welcome {background-color : #333;padding : 20px 25px;}
+#welcome p  { margin : 0;}
+#avatar { float : left; margin-right : 9.5px;}
+#avatar img {}
+#selamat {}
+
+#loginbox.konfirm  { width : 800px; height : auto; margin-bottom : 30px;}
+#loginbox.konfirm  #loginfooter { height : auto; padding : 10px 30px;}
+#loginbox.konfirm input { width : 150px;}
+#loginbox.konfirm input[type=submit] { float : right;}
+#loginbox.konfirm #loginbody {height : auto;}
+#loginbox .datasiswa {padding : 7px 30px;border-top : solid 1px #ECECEC;}
+#loginbox .datasiswa p.bold {
+	font-weight: bold;}
+#loginbox .datasiswa p {font-weight : normal; margin : 0;}
+
+#loginbox.konfirm.konfirm2  { width : auto; height : auto; margin-bottom : 30px;}
+#loginbox.konfirm.konfirm3 { width : 365px; height : auto; margin-bottom : 30px;}
+#loginbox.konfirm.konfirm3 #loginbody { font-weight : normal; font-size : 14px; padding : 40px 20px;}
+#loginbox.konfirm.konfirm3 #loginfooter {text-align : center; margin-bottom : 20px;}
+#loginbox.konfirm.konfirm3 input[type=submit] {float : none; margin-top : 30px;}
+
+p.warn {color : #333; padding : 15px; font-size : 13px; line-height : 1.7em;}
+
+#soal{background : #fff; position: relative;}
+#soal-head {padding : 17px; font-size : 17px;font-weight : bold;}
+#nomor {float : left;}
+#nomor span {background : #2F659C; color:#fff; padding : 5px 0px; width : 35px; display : inline-block; text-align : center;}
+#waktu {float : right; background : #979797; color : #fff;}
+#waktu span {padding : 10px 38px; display : inline-block}
+#waktu span.sisa { background : #2F659C; float : right;}
+#waktu span.sisa { background : #2F659C; float : right;}
+#waktu span p {float : left; margin : 0;}
+
+#font-size {background : #f6f6f6; font-weight : bold; font-size : 14px; padding : 10px 15px;border-top : solid 1px #c9c9c9;border-bottom : solid 1px #c9c9c9;}
+#font-size span { display : inline-block; margin: 0 10px;}
+#font-size span.a1 { font-size : 12px;}
+#font-size span.a2 { font-size : 18px;}
+#font-size span.a3 { font-size : 22px;}
+
+
+#soal { margin-bottom : 20px;}
+#soal-body {padding : 20px;}
+#soal-body {display: none}
+#soal-body table p {margin: 0}
+#soal-body table td {padding: 0}
+
+.soal { border : solid 1px #ccc; padding : 20px; display : none;}
+.soal.active {display : block;}
+.options-group {margin-top : 40px;}
+.options-group table { margin-left : 35px;}
+.options {margin : 20px 0;position : relative;}
+.options p {position : relative; left : 35px; max-width : 90%}
+span.option {
+	position: absolute;
+	top: -1px;}
+.option {display : inline-block; width : 26px; height:26px; border-radius : 90px; border : solid 3px #bdbdbd; text-align : center;
+		 margin-right : 10px; cursor : pointer; color : #bdbdbd; position : relative; padding-top : 0; font-size : 17px;
+		 font-weight : bold;;}
+.option.checked { background : #2F659C;color : #2F659C; border-color : #2F659C}
+#soal-foot {padding : 10px 20px; border-top : solid 1px #ccc; }
+#soal-foot .btn {font-size : 16px;padding : 13px 20px;border-radius : 0;}
+
+#summary {background  : #fff; border: solid 20px #f1f1f1; position : fixed; width  : 366px; right : 0; top : 70px; height : 500px; overflow-y:scroll; display : none;z-index  : 100;}
+#summary .no {float : left; font-size : 24px; text-align: center; border : solid 10px #fff; position : relative; cursor : pointer;font-weight : bold;}
+#summary p {margin : 0; width : 55px;padding : 8px; text-align : center;border : solid 3px #333;}
+
+#summary span {
+  position: absolute;
+  top: -10px;
+  right: -9px;
+  border-radius: 90px;
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  background: #fff;
+  border: solid 3px #333;
+
+}
+#summary .no.active,
+#summary .no.done.active p,
+#summary .no.ragu-ragu.active.done p {background: #336799;color: #000;}
+#summary .no.done p { background : #444; color : #fff;}
+#summary .no.ragu-ragu.done p,
+#summary .no.ragu-ragu {color : #fff; background : #edcb08}
+#summary .no.ragu-ragu span {border-color : #edcb08; color  :#edcb08 }
+#summary-button {position : fixed; right : 299px; top: 200px;}
+
+.nomor {display : none;}
+
+
+#konfirmasi-ragu {}
+.modal{background:#000; opacity:0.95; color:#000;}
+.modal-title { font-weight: bold;}
+.red {color : red; font-weight:bold;}
+
+td,th { padding : 5px;}
+#ajax {display : none; position:fixed;bottom:0;left:0;}
+
+.a1,.a2,.a3 {cursor:pointer}
+.mjx-chtml.MJXc-display {text-align: left !important}
+
+#soal-body>div>table{ width: 100% }
+
+.summary-log {
+    background-color: #DCDCDC;
+    padding: 10px 0 10px 10px;
+    width: 100%;
+    left: 0;
+    font-size: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    font-size: 1.2em;
+    padding-top: 12px;
+    text-align: center;
+    height: 40px;
+    font-size: 12px;
+}
+footer p {
+  width: 100%;
+  text-align: center;
+
+}
+
+#loginbody table td:first-child {
+	padding-right: 21px;
+	padding-left: 0;
+
+}
+#eye {
+	color : #c9c9c9;
+	cursor: pointer;
+}
+
+#eye:hover {
+	color : #000;
+}
+
+#loginbody table td:last-child {
+	padding-left: 0;
+	padding-right: 10px;
+}
+
+#loginbody .glyphicon-list-alt, #loginbody .glyphicon-lock, #loginbody .glyphicon-user {
+  background-color: #c9c9c9;
+  color: #fff;
+  padding: 12px;
+  font-size: 15px;
+  top: 2px;
+
+}
+
+#loginbody .glyphicon-list-alt {
+	background: #336799;
+}
+
+#loginbody .glyphicon-user {
+	background: #e66c69;
+}
+
+
+#soal-body {
+	font-size: 17.6px;
+}
+
+#summary-button .btn {
+	background: #e66c69;
+	border: #e66c69;
+	border-radius: 0;
+	font-weight: bold;
+	padding: 10px;
+}
+
+#summary-button.show .btn {
+	padding: 8px 13px;
+	font-size: 24px;
+}
+
+#summary .no.active span, #summary .no.active p {
+	border-color: #336799;
+
+}
+
+#summary .no.active span {
+	color : #336799;
+}
+
+#summary .no.ragu-ragu p {
+	border-color: #edcb08;
+}
+
+#summary .no.done.active p, #summary .no.ragu-ragu.active.done p {
+	border-color: #336799;
+}
+
+#soal-foot .btn.btn-default {
+	background: #979797;
+	color: #fff;
+
+}
+
+#soal-foot .btn.btn-primary:hover {
+	background: #264d73;	
+}
+#soal-foot .btn.btn-primary {
+	background: #336799;	
+}
+
+
+#soal-foot .btn.btn-default:hover {
+	background: #646464;
+}
+
+#waktu span:first-child {
+	padding: 10px 10px;
+
+}
+
+#soal-head #nomor {
+	font-size: 20px;
+
+}
+span.inneroption {
+	position: absolute;
+	left: 4px;
+	top: -2px;
+
+}
+
+#summary span.inneroption {
+  top: -3px;
+  left: -2px;
+	
+}
+
+audio {
+	width: 50% !important;
+    margin-left: 30px;
+    position: relative;
+    top: -4px;
+}
+
+#logo-container img {
+	max-height: 75px;
+}
+#logo-container, 
+#text-container { float: left; }
+#text-container { margin-left: 10px; }
+#text-container { margin-top: 10px; }
+#text-container h1,
+#text-container h3
+ { 
+ 	margin : 0; padding: 0;
+ }
+#text-container h1 { font-family: 'Lato', sans-serif; font-size: 29px;}
+#text-container h3 { font-family: 'Inconsolata', monospace; font-size: 18px; margin-left: 2px}
+
+#text-container {}
+
+ .fixed-top {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width : 100%;
+    background: #fff;
+    border: solid thin #c9c9c9;
+    margin-right : 15px;
+    z-index: 99;
+}
+
+#loginbody button {
+	width: 100%;
+	display: block;
+	margin-bottom: 10px;
+	padding : 10px 15px;
+	border-radius: 0;
+}
+
+
+#loginbox.konfirm.konfirm3 input[type=submit] {
+    float: none;
+    margin: auto;
+}
+
+.margin0 {
+	margin: 0;
+}
+
+@media only screen and (max-width: 500px) {
+	#welcome, #logo {
+		width: 100%;
+		position: static;
+		margin-top: 20px;
+		margin-bottom: 0px;
+	}
+
+	#welcome:after, #logo:after {
+		display: block;
+		content: "";
+		clear: both;
+	}
+	#header .col-md-12 {
+		height: auto;
+	}
+	.col-md-4, .col-md-8, .col-md-12 {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	#loginbox {
+		margin-left: 0;
+		margin-right: 0;
+		text-align: center;
+		width: 100%;
+	}
+	#loginbox.konfirm.konfirm3 {
+		width: 100%;
+	}
+	#logintitle p {
+		text-align: center;
+	}
+	#waktu, #nomor {
+		float: none;
+	}
+	#nomor {
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	#soal-foot td { display: block; text-align: center;}
+	#soal-foot td button {
+		width: 100%;
+	}
+	.modal-dialog {
+		width: 75% !important;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.row {
+	}
+}
+
+img {
+	max-width: 100%;
+}

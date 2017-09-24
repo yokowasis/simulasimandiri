@@ -1,0 +1,83 @@
+/* vietnamese */
+@font-face {
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Inconsolata Regular'), local('Inconsolata-Regular'), url(Fonts/woff/BjAYBlHtW3CJxDcjzrnZCL6up8jxqWt8HVA3mDhkV_0.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Inconsolata Regular'), local('Inconsolata-Regular'), url(Fonts/woff/BjAYBlHtW3CJxDcjzrnZCCYE0-AqJ3nfInTTiDXDjU4.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Inconsolata Regular'), local('Inconsolata-Regular'), url(Fonts/woff/BjAYBlHtW3CJxDcjzrnZCI4P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Passion One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Passion One'), local('PassionOne-Regular'), url(Fonts/woff/fY6k21F1QT2c_Oc3HRNDwiYE0-AqJ3nfInTTiDXDjU4.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Passion One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Passion One'), local('PassionOne-Regular'), url(Fonts/woff/fY6k21F1QT2c_Oc3HRNDwo4P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Lato Black'), local('Lato-Black'), url(Fonts/woff/R4a6fty3waPci7C44H8AjvY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Lato Black'), local('Lato-Black'), url(Fonts/woff/tI4j516nok_GrVf4dhunkg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/droid-sans-v6-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Droid Sans'), local('DroidSans'),
+       url('../fonts/droid-sans-v6-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/droid-sans-v6-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/droid-sans-v6-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/droid-sans-v6-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/droid-sans-v6-latin-regular.svg#DroidSans') format('svg'); /* Legacy iOS */
+}
+/* droid-sans-700 - latin */
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/droid-sans-v6-latin-700.eot'); /* IE9 Compat Modes */
+  src: local('Droid Sans Bold'), local('DroidSans-Bold'),
+       url('../fonts/droid-sans-v6-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/droid-sans-v6-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/droid-sans-v6-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/droid-sans-v6-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/droid-sans-v6-latin-700.svg#DroidSans') format('svg'); /* Legacy iOS */
+}
