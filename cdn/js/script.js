@@ -47,27 +47,6 @@ function savewaktu(){
 	})	
 }
 
-window.onbeforeunload = function(){
-   // Do something
-   return 'adsasd';
-}
-
-setTimeout(function() {
-	window.onbeforeunload = function(evt) {
-	    var message = 'Did you remember to download your form?';
-	    if (typeof evt == 'undefined') {
-		    savewaktu();
-	    }
-	    if (evt) {
-		    savewaktu();
-	    }
-
-
-	    savewaktu();
-	}
-}, 2000);
-
-
 $(document).ready(function(){
 
 
